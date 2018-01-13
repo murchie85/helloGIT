@@ -1,11 +1,10 @@
 #simple shell script to auto commit
 
-$commitMessage
 
 git add .
 
 echo 'Enter the commit message:'
-#read commitMessage
+#dollar1 becomes the commit message
 
 git commit -m "$1"
 
@@ -14,4 +13,3 @@ git commit -m "$1"
 
 git push origin master
 
-read
